@@ -68,7 +68,6 @@ $doc = new DOMDocument;
 @$doc->loadHTMLFile($url);
 // Look for all the 'a' elements
 $links = $doc->getElementsByTagName('a');
-
 $numLinks = 0;
 foreach ($links as $link) {
 
